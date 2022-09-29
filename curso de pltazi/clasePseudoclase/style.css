@@ -1,0 +1,36 @@
+.main-nav {
+    margin-top: 10px;
+    /*aqui le decimos que no queremos ese tipo de puntos que vienen por defecto en los atributos*/
+    list-style: none;
+    /*el padding es una dimension interna que le estamos dando es decir acomoda la lista en un espacio interno*/
+    padding-left: 0;
+    /*este agrega color al fondo*/
+    background-color: #13a4a4;
+  }
+  .main-nav__item {
+    /*cambia de forma vertical a horizontal*/
+    display: inline-block;
+  }
+  /*llamar las clases de maner aordenada para que nos e sobreescriba el codigo*/
+  .main-nav__item a {
+    
+    color: white;
+    padding: 5px;
+    /*acomoda las esquinas de las cajas*/
+    border-radius: 2px;
+    /*le quita la linea al texto */
+    text-decoration: none;
+  }
+  /*pseudoclases*/
+  /*el hover hace que el elemento cambie de clor cuando el mouse esta encima*/
+  .main-nav__item a:hover {
+    color: blue;
+  }
+  /*la pseudoclase active sirve para cuando dar clic osea que se active se cloque en rojo */
+  .main-nav__item a:active {
+    color: red;
+  }
+  /*el pseudo elemento se llama con 4 puntos y el pseudoelemento after sirve para agregar un contenido despues del elemnto en este caso una linea para separar*/
+  .main-nav__item a::after {
+    content: " | ";
+  }

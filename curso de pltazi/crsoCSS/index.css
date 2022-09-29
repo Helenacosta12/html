@@ -1,0 +1,16 @@
+/*para hacer los atributos existen tres maneras la primera es esta se escribe el elmento y luego dentro de llaves los atributos*/
+p {
+    color: blue;
+    font-size: 40px;
+  }
+  
+  /* class con esta se hace parecido solo que al atributo de html le agregas el class y dentro de el un nombre ese es el que vas a acolocar aqui despues de un punto */
+  .parrafo {
+    color: red;
+  }
+  
+  /* ID es lo mismo que class slo que aqui empieza con el numeral*/
+  #texto {
+    color: yellow;
+    font-size: 84px;
+  }
